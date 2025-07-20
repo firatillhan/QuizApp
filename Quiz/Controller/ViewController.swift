@@ -61,7 +61,7 @@ class ViewController: UIViewController {
             falseButton.isEnabled = false
             trueButton.setTitle("", for: .normal)
             falseButton.setTitle("", for: .normal)
-            alert(title: "Oyun bitti", message: "Doğru sayısı: \(quizBrain.getScore()) \n Tekrar Oynamak istermisiniz?")
+            alert(title: "Quiz bitti", message: "Doğru sayısı: \(quizBrain.getScore()) \n Tekrar başlamak istermisiniz?")
         }
         
     }
